@@ -1,0 +1,388 @@
+doctype html
+html
+  head
+    //
+      ==========================
+      Meta Tags
+      ===========================
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    //
+      ==========================
+      Title
+      ===========================
+    title Super Freelancer
+    //
+      ==========================
+      Favicons
+      ===========================
+    link(rel='shortcut icon', href='icons/favicon.ico')
+
+    link(rel='apple-touch-icon', href='icons/apple-touch-icon.png')
+
+    link(rel='apple-touch-icon', sizes='72x72', href='icons/apple-touch-icon-72x72.png')
+
+    link(rel='apple-touch-icon', sizes='114x114', href='icons/apple-touch-icon-114x114.png')
+    //
+      ==========================
+      Fonts
+      ===========================
+    link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic', rel='stylesheet', type='text/css')
+
+    link(href='http://fonts.googleapis.com/css?family=Lilita+One', rel='stylesheet', type='text/css')
+
+    link(href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC', rel='stylesheet', type='text/css')
+
+    link(href='http://fonts.googleapis.com/css?family=Montserrat', rel='stylesheet', type='text/css')
+    //
+      ==========================
+      CSS
+      ===========================
+    link(href='css/bootstrap.min.css', rel='stylesheet', type='text/css')
+
+    link(href='css/font-awesome.min.css', rel='stylesheet', type='text/css')
+
+    link(href='css/animate.css', rel='stylesheet', type='text/css')
+
+    link(href='css/creative-brands.css', rel='stylesheet', type='text/css')
+
+    link(href='css/vertical-carousel.css', rel='stylesheet', type='text/css')
+
+    link(href='css/custom.css', rel='stylesheet', type='text/css')
+    //
+      ==========================
+      JS
+      ===========================
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
+  body#page-top
+    a.scroll-up.scroll(href='#page-top')
+      i.fa.fa-chevron-up
+
+    h1 Freelancer
+
+
+    #date.date-big
+      p 28.
+
+      p.month July
+    //
+      ==========================
+      HEADER - START
+      ===========================
+    section#blog-header
+      .container
+        .row
+          .col-sm-4.col-xs-6
+            a(href='index.html')
+              i.fa.fa-arrow-left.arrow-left
+              |  HOME
+
+
+          .col-sm-4
+
+
+          .col-sm-4.col-xs-6
+            .blog-header-menu-right
+              a(href='index.html')
+                | NEXT ARTICLE 
+                i.fa.fa-arrow-right.arrow-right
+    //
+      ==========================
+      HEADER - END
+      ===========================
+    //
+      ==========================
+      BLOGPOST - START
+      ===========================
+    section#blog-post
+      .container
+        .row
+          .col-md-9.blog-content
+            h2 Headline blogpost lorem ipsum
+
+            p.date-small 2015/01/01
+            p
+              img.img-responsive.pull-left(src='image/ref2.png')
+            p
+              | Text of this blogpost At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+
+            p
+              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+
+
+          .col-md-3
+            .blog-sidebar.hidden-xs.hidden-sm
+              .blog-about
+                img.img-responsive.img-circle(src='image/jonathan.png')
+
+                h3 John Doe
+
+                p
+                  | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.
+
+                .social-wrapper
+                  ul.brands.brands-inline.hidden-xs
+                    li
+                      a(href='#')
+                        i.fa.fa-facebook.hi-icon-effect-8
+
+                    li
+                      a(href='#')
+                        i.fa.fa-twitter
+
+                    li
+                      a(href='#')
+                        i.fa.fa-google-plus
+
+                    li
+                      a(href='#')
+                        i.fa.fa-linkedin
+
+
+        .blog-about-xs.visible-xs.visible-sm
+          .row
+            .col-xs-4
+              img.img-responsive.img-circle(src='image/jonathan.png')
+
+            .col-xs-8
+              h3 John Doe
+
+              p
+                | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.
+
+              .social-wrapper
+                ul.brands.brands-inline
+                  li
+                    a(href='#')
+                      i.fa.fa-facebook.hi-icon-effect-8
+
+                  li
+                    a(href='#')
+                      i.fa.fa-twitter
+
+                  li
+                    a(href='#')
+                      i.fa.fa-google-plus
+
+                  li
+                    a(href='#')
+                      i.fa.fa-linkedin
+    //
+      ==========================
+      BLOGPOST - END
+      ===========================
+    // COMMENTS - START
+    section#comments
+      .container
+        .row
+          .comments
+            h2 4 Comments
+            // COMMENT
+            .media.comment
+              .pull-left
+                a(href='#')
+                  img.media-object.img-circle(src='image/suzanne.png', alt='')
+
+              .media-body
+                h4.media-heading
+                  | John Doe
+                  small 16/06/2014 23:22
+
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor dictum nibh, ac gravida orci porttitor et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam posuere magna a dapibus luctus.
+
+                a.pull-right(href='')
+                  i.fa.fa-reply
+                  | Reply
+            // COMMENT
+            .media.comment
+              .pull-left
+                a(href='#')
+                  img.media-object.img-circle(src='image/tom.png', alt='')
+
+              .media-body
+                h4.media-heading
+                  | John Doe
+                  small 16/06/2014 23:22
+
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor dictum nibh, ac gravida orci porttitor et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam posuere magna a dapibus luctus.
+
+                a.pull-right(href='')
+                  i.fa.fa-reply
+                  | Reply
+                // NESTED COMMENT
+                .media.comment
+                  .pull-left
+                    a(href='#')
+                      img.media-object.img-circle(src='image/jonathan.png', alt='')
+
+                  .media-body
+                    h4.media-heading
+                      | John Doe
+                      small 16/06/2014 23:22
+
+                    p
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor dictum nibh, ac gravida orci porttitor et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam posuere magna a dapibus luctus.
+
+                    a.pull-right(href='')
+                      i.fa.fa-reply
+                      | Reply
+            // COMMENT
+            .media.comment
+              .pull-left
+                a(href='#')
+                  img.media-object.img-circle(src='image/suzanne.png', alt='')
+
+              .media-body
+                h4.media-heading
+                  | John Doe
+                  small 16/06/2014 23:22
+
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor dictum nibh, ac gravida orci porttitor et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam posuere magna a dapibus luctus.
+
+                a.pull-right(href='')
+                  i.fa.fa-reply
+                  | Reply
+
+
+          #addcomment.comments-form
+            .row
+              .col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
+                h2 Leave a comment
+
+
+                form#contactForm(role='form')
+                  .form-group.control-group
+                    .controls
+                      p.help-block
+
+                      input#firstname.form-control(type='text', placeholder='First Name', data-validation-required-message='Please enter your first name.', aria-invalid='false')
+
+
+                  .form-group.control-group
+                    .controls
+                      p.help-block
+
+                      input#lastname.form-control(type='text', placeholder='Last Name', data-validation-required-message='Please enter your last name.', aria-invalid='false')
+
+
+                  .form-group.control-group
+                    .controls
+                      p.help-block
+
+                      input#email.form-control(type='email', placeholder='Email', data-validation-required-message='Please enter your email address.', aria-invalid='false')
+
+
+                  .form-group.control-group
+                    .controls
+                      p.help-block
+
+                      textarea#message.form-control(placeholder='Message', data-validation-required-message='Please enter some message.', aria-invalid='false')
+
+
+                  .form-group
+                    button.btn.btn-primary(type='submit') Send message
+            // COMMENTS - END
+    //
+      ==========================
+      FOOTER - START
+      ===========================
+    section#footer
+      .container
+        .row
+          .col-sm-12.scrollpoint.sp-effect3
+            ul.brands.brands-inline
+              li
+                a(href='#')
+                  i.fa.fa-facebook.hi-icon-effect-8
+
+              li
+                a(href='#')
+                  i.fa.fa-twitter
+
+              li
+                a(href='#')
+                  i.fa.fa-google-plus
+
+              li
+                a(href='#')
+                  i.fa.fa-linkedin
+
+
+
+            p
+              | &copy; John Doe The Freelancer 2014 All right reserved. Designed by 
+              a.btn.btn-footer(href='http://pixelized.cz', target='_blank') Pixelized Studio
+    //
+      ==========================
+      FOOTER - END
+      ===========================
+    //
+      ==========================
+      JS
+      ===========================
+    script(src='http://code.jquery.com/jquery-latest.min.js')
+
+    script(src='js/bootstrap.min.js')
+
+    script(src='js/jquery.magnific-popup.min.js')
+
+    script(src='js/creative-brands.js')
+
+    script(src='js/jquery.easy-pie-chart.js')
+
+    script(src='js/modernizr.custom.js')
+
+    script(src='js/waypoints.min.js')
+
+    script(src='js/jquery.countTo.js')
+
+    script(src='js/jqBootstrapValidation.js')
+
+    script(src='js/custom.js')
+
+    script.
+      $(function () {
+      $("input,textarea").jqBootstrapValidation({
+      preventSubmit: true,
+      submitSuccess: function($form, event) {
+      event.preventDefault(); // prevent default submit behaviour
+      // get values from FORM
+      var firstname = $("input#firstname").val();
+      var lastname = $("input#lastname").val();
+      var email = $("input#email").val();
+      var message = $("textarea#message").val();
+      $.ajax({
+      url: "send.php",
+      type: "POST",
+      data: {
+      firstname: firstname,
+      lastname: lastname,
+      email: email,
+      message: message
+      },
+      cache: false,
+      success: function() {
+      // Success message
+      $('.contact-alert').html("<div class='alert alert-success'>");
+      $('.contact-alert > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'><i class='fa fa-times'></i></button><strong>Your message has been sent.</strong></div>");
+      //clear all fields
+      $('#contactForm').trigger("reset");
+      },
+      error: function() {
+      // Fail message
+      $('.contact-alert').html("<div class='alert alert-danger'>");
+      $('.contact-alert > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'><i class='fa fa-times'></i></button><strong>Sorry, it seems that my mail server is not responding. Please try again later!</strong></div>");
+      //clear all fields
+      $('#contactForm').trigger("reset");
+      },
+      })
+      }
+      });
+      });
