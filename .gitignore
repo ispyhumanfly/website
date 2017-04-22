@@ -17,4 +17,7 @@ typings/*
 *.log
 npm-debug*
 *.map
+src/logs/
+src/cache/
+
 
